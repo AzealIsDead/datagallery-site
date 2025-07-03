@@ -9,6 +9,9 @@
   --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 * {
   box-sizing: border-box;
 .hero-banner {
@@ -24,6 +27,36 @@
   color: white;
   text-align: center;
   overflow: hidden;
+}
+
+..cta-container {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+.cta-button.secondary {
+  background-color: #6c757d;
+}
+
+.cta-button.secondary:hover {
+  background-color: #5a6268;
 }
 
 .hero-banner::after {
