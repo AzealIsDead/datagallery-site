@@ -178,7 +178,7 @@ main {
 
 /* === About: Founder Section === */
 .founder-section {
-  padding: 4rem 0;
+  padding: 3rem 2rem;
   background-color: #f3f6fa;
   border-top: 1px solid #ddd;
 }
@@ -214,22 +214,6 @@ main {
   text-decoration: underline;
 }
 
-.founder-section {
-  background: var(--color-secondary);
-  color: #fff;
-  padding: 2rem; /* uniform spacing inside the grey box */
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-/* Style the image inside the founder section */
-.founder-section img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 1.5rem; /* spacing between image and text */
-  border-radius: 8px;
-}
 
 /* === Call to Action Section === */
 .call-to-action {
