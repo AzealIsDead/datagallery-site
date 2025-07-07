@@ -312,6 +312,54 @@ main {
   color: var(--color-tertiary);
   margin-bottom: 1.5rem;
 }
+.founder-section {
+  padding: 4rem 0;
+  background-color: #f3f6fa;
+  border-top: 1px solid #ddd;
+}
+
+.founder-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+.founder-image img {
+  width: 240px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.founder-text {
+  flex: 1;
+}
+
+.founder-text p {
+  margin-bottom: 1rem;
+}
+
+.founder-text a {
+  color: #0074E4;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.founder-text a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .founder-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .founder-image img {
+    width: 100%;
+    max-width: 300px;
+  }
+}
 
 footer {
   background-color: var(--color-primary);
