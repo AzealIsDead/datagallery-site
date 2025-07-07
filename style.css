@@ -146,6 +146,21 @@ main {
   margin-top: 0;
   color: var(--text-light);
 }
+.two-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.two-columns article {
+  flex: 1 1 calc(50% - 1rem); /* Two columns with gap compensation */
+  background: var(--color-secondary);
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
 
 .single-column {
   margin-bottom: 3rem;
@@ -156,6 +171,7 @@ main {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+  
 .single-column h2 {
   margin-top: 0;
   font-size: 1.6rem;
