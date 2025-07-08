@@ -109,6 +109,8 @@ main {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
+  align-items: center;
+
 }
 
 .cta-button,
