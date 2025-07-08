@@ -221,7 +221,7 @@ main {
 .call-to-action {
   background: var(--color-primary);
   color: var(--text-light);
-  text-align: center;
+  align-items: center;  
   padding: 3rem 1.5rem;
   margin-top: 3rem;
   border-radius: 8px;
