@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Data Gallery - Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Data Gallery</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html" class="active">Shop</a>
+      <a href="blog.html">Blog</a>
+      <a href="services.html">Services</a>
+      <a href="products.html">Products</a>
+      <a href="casestudies.html">Case Studies</a>
+      <a href="about.html">About</a>
+
+
+    </nav>
+  </header>
+
+  <section class="hero-banner">
+  <div class="hero-text">
+    <h1>Check Back Soon For Exciting New Products!</h1>
+    <h2>Navigating Complexity. Delivering Results.</h2>
+    <div class="cta-container">
+      <a href="https://mailchimp.com/help/about-signup-form-options/" class="cta-button secondary">Sign up to our newsletter to get updates!</a>
+    </div>
+
+  </div>
+  </section>
+  </footer>
+</body>
+</html>
