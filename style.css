@@ -163,7 +163,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10rem;
+  gap: 5rem;
 }
 .certification-logos img {
   height: 100px;
