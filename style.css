@@ -140,6 +140,41 @@ main {
 .cta-button.secondary:hover {
   background-color: #5a6268;
 }
+/* === Certifications ===*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.certifications-section {
+  background-color: #ffffff;
+  padding: 4rem 0;
+  text-align: center;
+  border-top: 1px solid #e5e7eb;
+}
+.certifications-section .section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #A0A0A0;
+}
+.certification-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.certification-logos img {
+  height: 64px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(20%);
+  transition: filter 0.3s ease;
+}
+.certification-logos img:hover {
+  filter: none;
+}
 
 /* === Layouts === */
 .three-columns,
