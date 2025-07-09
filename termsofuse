@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Terms of Use | Data Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .terms-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 4rem 1.5rem;
+      font-family: 'Segoe UI', sans-serif;
+      color: #1f2937;
+    }
+
+    .terms-container h1 {
+      font-size: 2.25rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .terms-container h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .terms-container p {
+      margin-bottom: 1rem;
+      line-height: 1.7;
+    }
+
+    .terms-container ul {
+      list-style: disc;
+      padding-left: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      color: #6b7280;
+      font-size: 0.875rem;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <main class="terms-container">
+    <h1>Terms of Use</h1>
+    <p><strong>Effective Date:</strong> [Insert Date]</p>
+
+    <p>These Terms of Use ("Terms") govern your access to and use of the website located at <a href="https://azealisdead.github.io/datagallery-site">https://azealisdead.github.io/datagallery-site</a> ("Website"), operated by Data Gallery ("we," "us," or "our"). By accessing or using the Website, you agree to be legally bound by these Terms and our Privacy Policy. If you do not agree, you must not use the Website.</p>
+
+    <h2>1. Use of the Website</h2>
+    <p>You may use the Website solely for lawful purposes and in accordance with these Terms. You agree not to:</p>
+    <ul>
+      <li>Use the Website in any manner that could disable, damage, or impair the functionality of the Website;</li>
+      <li>Attempt to gain unauthorized access to any part of the Website or its systems;</li>
+      <li>Use the Website to violate any applicable local, state, national, or international law or regulation.</li>
+    </ul>
+
+    <h2>2. Intellectual Property Rights</h2>
+    <p>All content, features, and functionality on the Website—including text, graphics, logos, icons, images, and layout—are the property of Data Gallery or its licensors, and are protected by intellectual property laws. You may not reproduce, modify, distribute, or create derivative works without express written permission.</p>
+
+    <h2>3. Disclaimers</h2>
+    <p>The Website and its content are provided on an “as is” and “as available” basis without warranties of any kind, either express or implied. We do not warrant that the Website will be error-free or uninterrupted, or that defects will be corrected.</p>
+
+    <h2>4. Limitation of Liability</h2>
+    <p>To the maximum extent permitted by law, Data Gallery shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of or related to your use of, or inability to use, the Website.</p>
+
+    <h2>5. Third-Party Links</h2>
+    <p>The Website may contain links to third-party websites. These links are provided for your convenience only. We do not endorse or assume any responsibility for the content, privacy practices, or terms of use of such websites.</p>
+
+    <h2>6. Changes to the Terms</h2>
+    <p>We reserve the right to modify or update these Terms at any time without prior notice. Any changes will be posted on this page with an updated effective date. Your continued use of the Website constitutes your acceptance of the revised Terms.</p>
+
+    <h2>7. Governing Law</h2>
+    <p>These Terms are governed by and construed in accordance with the laws of the State of New York, United States, without regard to its conflict of laws principles. Any disputes arising from these Terms shall be resolved in the courts of competent jurisdiction located in New York County, New York.</p>
+
+    <h2>8. Contact Information</h2>
+    <p>If you have any questions or concerns regarding these Terms, please contact us at:</p>
+    <p>Email: <a href="mailto:info@datagallery.co">info@datagallery.co</a></p>
+  </main>
+
+  <footer>
+    &copy; 2025 Data Gallery. All rights reserved.
+  </footer>
+
+</body>
+</html>
