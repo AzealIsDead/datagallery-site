@@ -20,26 +20,18 @@
   </nav>
 </header>
   
-  <section class="hero-banner">
-    <div class="hero-text">
-      <h1>Check&nbsp;Back&nbsp;Soon!</h1>
-      <h2>We don't have any products here yet. Sign up to our newsletter to know when we have a new release.</h2>
-  
-    </div>
-  </section>
-  
-<section class="newsletter-signup">
+ <section class="newsletter-signup">
   <h2>Join Our Newsletter</h2>
   <p>Stay updated with our latest updates and insights from Data Gallery.</p>
 
-  <form id="newsletter-form">
+  <form id="newsletter-form" class="newsletter-form">
     <div class="name-row">
       <input type="text" name="first_name" placeholder="First Name" required>
       <input type="text" name="last_name" placeholder="Last Name" required>
     </div>
     <input type="email" name="email" placeholder="Email Address" required>
     <button type="submit">Subscribe</button>
-    <span id="success-message" style="display:none; color: green; text-align: center; margin-top: 10px;">Thank you for subscribing!</span>
+    <span id="success-message">Thank you for subscribing!</span>
   </form>
 </section>
 
@@ -49,7 +41,7 @@
     const form = this;
     const successMessage = document.getElementById("success-message");
 
-    fetch("YOUR_GOOGLE_SCRIPT_WEBAPP_URL", {
+    fetch("https://script.google.com/macros/library/d/1K1VO_lkj3hcHmRpFmzRo_W3Pf0Bl4Dq3maYmZjSowoGX9KSZgBwhDXE1/4", {
       method: "POST",
       mode: "no-cors",
       body: new FormData(form)
