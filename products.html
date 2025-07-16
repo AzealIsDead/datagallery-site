@@ -29,18 +29,36 @@
     </form>
 </section>
 
+<section class="newsletter-signup" style="max-width: 600px; margin: 50px auto; padding: 30px; background: #f9f9f9; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); font-family: 'Segoe UI', sans-serif;">
+    <h2 style="text-align: center; color: #333;">Join Our Newsletter</h2>
+    <p style="text-align: center; color: #555; font-size: 1rem;">Stay updated with our latest case studies and insights from Data Gallery.</p>
+
+    <form id="newsletter-form" style="display: flex; flex-direction: column; gap: 15px; margin-top: 20px;">
+        <input type="email" name="email" placeholder="Enter your email" required style="padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 1rem;">
+        <button type="submit" style="padding: 12px; background-color: #78d1b5; color: white; border: none; border-radius: 6px; font-size: 1rem; font-weight: bold; cursor: pointer;">Subscribe</button>
+        <span id="success-message" style="display:none; color: green; text-align: center; margin-top: 10px;">Thank you for subscribing!</span>
+    </form>
+</section>
+
 <script>
   document.getElementById("newsletter-form").addEventListener("submit", function(e){
     e.preventDefault();
-    fetch("https://script.google.com/a/macros/datagallery.io/s/AKfycbw0mjpFbeGJgd6mZKmu4nSnCYRjDoxdWlthNS9Cz-tvtSiRB0tQ4HyCE3d9q93sU8DY/exec", {
+    const form = this;
+    const successMessage = document.getElementById("success-message");
+
+    fetch("https://script.google.com/macros/s/AKfycbywZmUgTCrskSUIYT19LZF9yQcMP--AAlt6YZP7o5RiJvS0iuAKUq28WWHz8fjIc5FcUg/exec", {
       method: "POST",
       mode: "no-cors",
-      body: new FormData(this)
+      body: new FormData(form)
+    }).then(() => {
+      successMessage.style.display = "block";
+      form.reset();
+    }).catch(() => {
+      alert("There was an error. Please try again later.");
     });
-    alert("Thank you for subscribing!");
-    this.reset();
   });
 </script>
+
 
 
   </div>
