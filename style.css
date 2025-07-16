@@ -26,6 +26,49 @@ body {
   line-height: 1.6;
 }
 /* === Newsletter === */
+.newsletter-signup form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.name-row {
+    display: flex;
+    gap: 15px;
+}
+
+.name-row input[type="text"],
+input[type="email"] {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 12px;
+    background-color: #78d1b5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4a90e2;
+}
+
+/* Responsive: Stack name fields on small screens */
+@media (max-width: 600px) {
+    .name-row {
+        flex-direction: column;
+    }
+}
+
 .newsletter-signup {
     max-width: 600px;
     margin: 50px auto;
