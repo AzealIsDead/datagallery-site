@@ -32,6 +32,8 @@
   <h2>Join Our Newsletter</h2>
   <p>Stay updated with our latest updates and insights from Data Gallery.</p>
   <form id="newsletter-form">
+    <input type="text" name="first_name" placeholder="First Name" required>
+    <input type="text" name="last_name" placeholder="Last Name" required>
     <input type="email" name="email" placeholder="Enter your email" required>
     <button type="submit">Subscribe</button>
     <span id="success-message" style="display:none; color: green; text-align: center; margin-top: 10px;">Thank you for subscribing!</span>
@@ -44,7 +46,7 @@
     const form = this;
     const successMessage = document.getElementById("success-message");
 
-    fetch("https://script.google.com/macros/s/AKfycbyayR01qSbenmdWP-yocz0Tk07q8okckRfVJgDcl_5MKIt_3A_AYm9PtjZwfCYMgNhRNw/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbyh_UgloNy9gYPCEXqpixF7OcMUXrrbrqs4V7ca87HD4y5cQfIqdoirRzklFQDao1tWnQ/exec", {
       method: "POST",
       mode: "no-cors",
       body: new FormData(form)
