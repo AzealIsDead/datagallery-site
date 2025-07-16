@@ -25,7 +25,67 @@ body {
   margin: 0;
   line-height: 1.6;
 }
+/* === Newsletter === */
+.newsletter-signup {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', sans-serif;
+}
 
+.newsletter-signup h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.newsletter-signup p {
+    text-align: center;
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+#newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#newsletter-form input[type="email"] {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+#newsletter-form button {
+    padding: 12px;
+    background-color: #78d1b5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#newsletter-form button:hover {
+    background-color: #4a90e2;
+}
+
+#success-message {
+    display: none;
+    color: green;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10px;
+}
 /* === Case Studies === */
 .case-studies {
     max-width: 1000px;
