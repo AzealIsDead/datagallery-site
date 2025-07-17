@@ -314,7 +314,7 @@ main {
 /* === Layouts === */
 .three-columns,
 .two-columns {
-  display: block;
+  display: flex;
   gap: 2rem;
   flex-wrap: nowrap;
   margin-bottom: 3rem;
