@@ -229,7 +229,7 @@ main {
 /* === Services ===*/
 .services {
   background-color: var(--color-primary);
-  padding: 1rem 0;
+  color: var(--text-light);
   text-align: center;
   padding: 1rem 0;
   font-size: 0.9rem;
