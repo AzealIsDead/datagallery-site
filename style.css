@@ -229,11 +229,10 @@ main {
 /* === Services ===*/
 .services {
   background-color: var(--color-primary);
-  color: var(--text-light);
-  text-align: center;
-  padding: 1rem 0;
-  font-size: 0.9rem;
   width: 100%;
+  padding: 40px; /* Add padding to keep content readable */
+  color: white;
+  text-align: center;
 }
 
 /* === CTA Buttons === */
