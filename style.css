@@ -312,12 +312,21 @@ main {
 }
 
 /* === Layouts === */
-.three-columns article {
-  flex: 1 1 calc(33.333% - 1.33rem); /* 3 columns */
+.three-columns {
+  display: flex;
+  flex-wrap: wrap; /* allow wrapping for small screens */
+  gap: 2rem;
+  margin-bottom: 3rem;
 }
 
-.two-columns article {
-  flex: 1 1 calc(50% - 1rem); /* 2 columns */
+.three-columns article {
+  flex: 1 1 calc((100% - 4rem) / 3); 
+  /* 4rem = total gap space between 3 items (2 gaps of 2rem) */
+  background: var(--color-secondary);
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .three-columns,
@@ -547,6 +556,7 @@ footer {
   .two-columns {
     flex-direction: column;
   }
+  
 
   .founder-content {
     flex-direction: column;
