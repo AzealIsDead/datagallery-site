@@ -312,11 +312,19 @@ main {
 }
 
 /* === Layouts === */
+.three-columns article {
+  flex: 1 1 calc(33.333% - 1.33rem); /* 3 columns */
+}
+
+.two-columns article {
+  flex: 1 1 calc(50% - 1rem); /* 2 columns */
+}
+
 .three-columns,
 .two-columns {
   display: flex;
   gap: 2rem;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   margin-bottom: 3rem;
 }
 
