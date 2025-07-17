@@ -314,14 +314,12 @@ main {
 /* === Layouts === */
 .three-columns {
   display: flex;
-  flex-wrap: wrap; /* allow wrapping for small screens */
   gap: 2rem;
   margin-bottom: 3rem;
 }
 
 .three-columns article {
   flex: 1 1 calc((100% - 4rem) / 3); 
-  /* 4rem = total gap space between 3 items (2 gaps of 2rem) */
   background: var(--color-secondary);
   color: #fff;
   padding: 1.5rem;
@@ -333,7 +331,6 @@ main {
 .two-columns {
   display: flex;
   gap: 2rem;
-  flex-wrap: wrap;
   margin-bottom: 3rem;
 }
 
