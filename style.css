@@ -226,6 +226,11 @@ main {
   font-size: 1.5rem;
   font-weight: 300;
 }
+/* === Services ===*/
+.services {
+  background-color: var(--color-secondary);
+  padding: 1rem 0;
+}
 
 /* === CTA Buttons === */
 .cta-container {
@@ -306,7 +311,7 @@ main {
 /* === Layouts === */
 .three-columns,
 .two-columns {
-  display: flex;
+  display: block;
   gap: 2rem;
   flex-wrap: wrap;
   margin-bottom: 3rem;
