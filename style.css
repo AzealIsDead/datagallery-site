@@ -316,7 +316,7 @@ main {
 .two-columns {
   display: block;
   gap: 2rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin-bottom: 3rem;
 }
 
