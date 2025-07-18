@@ -297,16 +297,22 @@ main {
 
 /* === Layouts === */
 .full-width-section {
+  position: relative;
   width: 100vw;
-  margin-left: calc(-50vw + 50%);
-  background-color: #f7f7f7; /* Optional: add background color for full-width effect */
-  padding: 40px 20px;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background-color: #f7f7f7; /* Optional */
+  padding: 60px 20px;
+  box-sizing: border-box;
 }
 
 .full-width-section .services {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 
 
 .spacer {
