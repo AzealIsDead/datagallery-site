@@ -296,6 +296,19 @@ main {
 }
 
 /* === Layouts === */
+.full-width-section {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  background-color: #f7f7f7; /* Optional: add background color for full-width effect */
+  padding: 40px 20px;
+}
+
+.full-width-section .services {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
 .spacer {
   height: 50px;
 }
