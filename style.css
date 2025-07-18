@@ -312,6 +312,12 @@ main {
 }
 
 /* === Layouts === */
+.divider {
+  height: 2px;
+  background-color: #aaa;
+  margin: 40px 0;
+}
+
 .three-columns {
   display: flex;
   gap: 2rem;
