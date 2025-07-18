@@ -313,7 +313,7 @@ main {
 
 /* === Layouts === */
 .spacer {
-  height: 40px; /* or any height you need */
+  height: 100px;
 }
 
 .divider {
