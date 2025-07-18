@@ -312,6 +312,10 @@ main {
 }
 
 /* === Layouts === */
+.spacer {
+  height: 40px; /* or any height you need */
+}
+
 .divider {
   height: 2px;
   background-color: #aaa;
