@@ -218,6 +218,11 @@ main {
   color: white;
   text-align: center;
 }
+.services .three-columns article {
+  background: transparent;
+  box-shadow: none;
+}
+
 
 /* === CTA Buttons === */
 .cta-container {
@@ -303,7 +308,7 @@ main {
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-  background-color: #78d1b5
+  background-color: #78d1b5; /* Add semicolon here */
   padding: 0px 20px;
   box-sizing: border-box;
 }
